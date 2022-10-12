@@ -5,6 +5,6 @@
 ./app/build
 ./node_modules
 
-*.db
+api/December.db
 api/config.json
-api/__pucache/
+api/__pycache__/
