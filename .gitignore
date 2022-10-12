@@ -1,0 +1,6 @@
+./api/config.json
+./api/December.db
+./api/__pycache__
+
+./app/build
+./node_modules

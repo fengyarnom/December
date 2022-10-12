@@ -1,0 +1,19 @@
+.notice{
+    background-color: #fff3cd;
+    color:black;
+    border-radius: 8px;
+    color: #664d03;
+    margin-bottom: 1em;
+    padding: 1em;
+    .title{
+        font-size: 15px;
+        font-weight: 700;
+
+        letter-spacing: 1.2px;
+        margin-bottom: 6px;
+    }
+    .content{
+        font-size: 14px;
+        letter-spacing: 1.2px;
+    }
+}

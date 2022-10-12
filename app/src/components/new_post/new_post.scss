@@ -1,0 +1,51 @@
+.newPost{
+    .post{
+        margin: 3em 0;
+    }
+    .title{
+        input{
+            width: 100%;
+            font-size: 36px;
+            outline: none;
+            border:none;
+            font-weight: 700;
+            white-space: pre-line;
+            letter-spacing: 2px;
+            
+        }
+        margin-bottom: 1em;
+    }
+    .tags{
+        input{
+            width: 100%;
+            font-size: 18px;
+            outline: none;
+            border:none;
+            border-bottom: 1px solid #eee;
+            padding: 1em 0;
+        }
+    }
+    textarea{
+        min-height: 300px;
+        outline: none;
+        border: none;
+        width: 100%;
+        font-size: 18px;
+        letter-spacing: 2px;
+        line-height: 2em;
+    }
+    .option{
+        margin: 2em 0;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        .MuiTextField-root{
+            margin-bottom: 1em;
+        }
+        .checkbox{
+            margin-bottom: 1em;
+        }
+    }
+    
+}

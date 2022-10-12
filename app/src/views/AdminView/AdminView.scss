@@ -1,0 +1,57 @@
+.AdminView{
+    
+    .header{
+        margin-bottom: 1em;
+        letter-spacing: 3px;
+        font-size: 24px;
+        font-weight: 700;
+        color: #5c5c67;
+    }
+    .overview{
+        margin-bottom: 1em;
+        .content{
+            display: flex;
+            font-size: 18px;
+            color: #5c5c67;
+            justify-content: space-around;
+            margin-bottom: 2em;
+            .item{
+                width:18%;
+                padding: 1.5em 1.3em;
+                border-radius: 4px;
+                box-shadow: rgb(0 0 0 / 40%) 0px 0px 13px -5px, rgb(0 0 0 / 0%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+                color:#5c5c67;
+                margin: 0 1em;
+                .header{
+                    color: #5c5c67a6;
+                    font-size: 14px;
+                    
+                }
+                .number{
+                    text-align: center;
+                    font-size: 30px;
+                    letter-spacing: 3px;
+                }
+                .unit{
+                    text-align: right;
+                    font-size: 14px;
+                }
+            }
+        }
+        
+    }
+    .main{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        a{
+            text-decoration: none;
+        }
+        .header{
+            display: flex;
+            font-size: 16px;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}

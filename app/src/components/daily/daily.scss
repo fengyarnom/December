@@ -1,0 +1,107 @@
+@media screen and (max-width: 899px) {
+    img{
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 900px) {
+    img{
+        max-width: 80%;
+    }
+}
+.daily{
+    .header{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2em;
+        letter-spacing: 0.05em;
+        span{
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 13px;
+            background-color: #d62839;
+            color: #fff;
+            padding: 4px 21px;
+            border-radius: 4px;
+        }
+    }
+    
+    .card{
+        
+        .title{
+            text-align: center;
+            h2{
+                margin: 0.4em 0;
+            }
+            letter-spacing: 1.4px;
+        }
+        .date{
+            text-align: center;
+            color: #aaa;
+            letter-spacing: 1.4px;
+            margin-bottom: 1em;
+            font-size: 13px;
+        }
+        .content{
+            text-align: center;
+            white-space:pre-line;
+            color: #3d3d3f;
+            font-size: 16px;
+            line-height: 1em;
+            h1{
+                font-size: 24px;
+                margin: 0;
+            }
+            h2{
+                font-size: 22px;
+                margin: 0;
+            }
+            h3{
+                font-size: 20px;
+                margin: 0;
+            }
+            h4{
+                font-size: 18px;
+                margin: 0;
+            }
+            h5{
+                font-size: 16px;
+                margin: 0;
+            }
+            h6{
+                font-size: 15px;
+                margin: 0;
+            }
+            p{
+                margin: 0;
+            }
+            blockquote {
+                font-size: 1rem;
+                color: #999;
+                border-left: 0.2rem solid #dfe2e5;
+                margin: 1rem 0;
+                padding: 0.25rem 0 0.25rem 1rem;
+            }
+            img{
+                padding: 1.5em 0;
+            }
+        }
+        hr{
+            display: block;
+            border: 0;
+            margin: 3em auto;
+            &::before{
+                color: rgba(0, 0, 0, 0.2);
+                font-size: 1.1em;
+                display: block;
+                content: "* * *";
+                text-align: center;
+            }
+        }
+    }
+    .MuiPagination-ul{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+}

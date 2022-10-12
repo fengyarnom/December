@@ -1,0 +1,39 @@
+.siderbar{
+    .header{
+            
+        .title{ 
+            display: flex;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 1.2px;
+            margin-bottom: 0.5em;
+            
+            
+        }
+    }
+    
+    .recent-posts{
+        padding: 1em;   
+        
+        li{
+            list-style: none;
+            border-radius: 4px;
+            line-height: 18px;
+            padding: 0.5em 0em;
+            letter-spacing: 1.3px;
+            a{
+                
+                text-decoration: none;
+                color: #3d3d3d;
+                word-break: break-word;
+            }
+            &:hover{
+                font-weight: 700;
+                
+            }
+            
+            
+        }
+        
+    }
+}

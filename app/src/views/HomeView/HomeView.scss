@@ -1,0 +1,82 @@
+@media screen and (max-width: 899px) {
+    .content{
+    
+        header{
+            display: flex;
+            justify-content: center;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 2.3em;
+            margin-top: 1em;
+            .nav-area{
+                flex-direction: column;
+                padding: 1.2em;
+                .navbar{
+                    flex-direction: column;   
+                    .logo{
+                        margin-bottom:1.5em;
+                    }
+                    .option{
+                        display: none;
+                    }
+                }
+                
+            }
+            
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2em;
+            .main-area{
+                width: 80%;
+                display: flex;
+                justify-content: space-between;
+                #article-area{
+                    width: 100%;
+                    .article{
+                        .post{
+                            .detail{
+                                flex-wrap: wrap;
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+                .siderbar{
+                   display: none;
+                }
+            }
+            
+        }}
+}
+@media screen and (min-width: 900px) {
+    .content{
+    
+        header{
+            display: flex;
+            justify-content: center;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 2.3em;
+            .nav-area{
+                width: 60%;
+                padding: 1.2em;
+            }
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            .main-area{
+                width: 60%;
+                display: flex;
+                justify-content: space-between;
+                #article-area{
+                    width: 65%;
+                }
+                .siderbar{
+                    width: 18%;
+                }
+            }
+            
+        }
+    }
+}
