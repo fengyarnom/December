@@ -4,3 +4,7 @@
 
 ./app/build
 ./node_modules
+
+*.db
+api/config.json
+api/__pucache/
