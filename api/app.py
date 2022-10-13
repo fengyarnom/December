@@ -12,6 +12,7 @@ initHandle = InitSystem()
 init_error = initHandle.check()
 # Flask 配置
 app = Flask(__name__)
+
 # session 密钥
 app.config['SECRET_KEY'] = 'Yarnom'
 app.config['DEBUG'] = True
@@ -27,6 +28,7 @@ def index():
 
 @app.route("/<path:url_path>")
 def other(url_path):
+    print("进入 BB")
     # 路由跳转，一切跳转交给前端，后端只负责处理数据
     return render_template("index.html")
 

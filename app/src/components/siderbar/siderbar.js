@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Notice from "../notice/Notice";
 import Tags from "../tags/Tags";
 import axios from "axios";
+import { Suspense } from 'react'
 import './siderbar.scss'
 
 export class Siderbar extends Component{
@@ -24,7 +25,8 @@ export class Siderbar extends Component{
       }
     render(){
         return(
-            <div className="siderbar">
+            <Suspense fallback={<div>Loading</div>}>
+                <div className="siderbar">
                 <Notice></Notice>
                 
                 <Tags></Tags>
@@ -41,6 +43,8 @@ export class Siderbar extends Component{
                 </div>
                 
             </div>
+            </Suspense>
+            
         )
     }
 }
