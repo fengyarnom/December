@@ -6,7 +6,7 @@ import axios from "axios";
 import { Suspense } from 'react'
 import './siderbar.scss'
 
-export class Siderbar extends Component{
+export default class Siderbar extends Component{
     constructor(props){
         super(props);
         this.state = {
@@ -25,7 +25,6 @@ export class Siderbar extends Component{
       }
     render(){
         return(
-            <Suspense fallback={<div>Loading</div>}>
                 <div className="siderbar">
                 <Notice></Notice>
                 
@@ -43,7 +42,6 @@ export class Siderbar extends Component{
                 </div>
                 
             </div>
-            </Suspense>
             
         )
     }

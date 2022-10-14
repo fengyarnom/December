@@ -20,8 +20,8 @@ import {
 // import { POST_PAGE } from './components/post_page/post_page';
 
 import './index.scss';
-
-const HomeView = lazy(() => import('./views/HomeView/HomeView'))
+import LinearProgress from '@mui/material/LinearProgress';
+const HomeView = lazy(() => import('./views/HomeView/HomeView'),'HomeView')
 const ErrorView = lazy(() => import('./views/ErrorView/ErrorView'))
 const Article = lazy(() => import('./components/article/article'))
 const Daily = lazy(() => import('./components/daily/daily'))
@@ -94,7 +94,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
-      <Suspense fallback={<div>Loading</div>}>
+      <Suspense fallback={<LinearProgress />}>
         <RouterProvider router={router} />
       </Suspense>
       

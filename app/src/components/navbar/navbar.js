@@ -1,9 +1,6 @@
 import { Component } from "react";
 import { Link } from "react-router-dom";
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import Button from '@mui/material/Button';
-import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
+
 
 import "./navbar.scss"
 export class Navbar extends Component{
