@@ -21,12 +21,11 @@ export default class HomeView extends Component{
                 
                 <div className="main">
                     <div className="main-area">
-                        <Suspense fallback={<LinearProgress />}>
-                            <div id="article-area">
-                                <Outlet />
-                            </div>
-                        </Suspense>
-                        
+                        <div id="article-area">
+                            <Suspense fallback={<LinearProgress />}>                              
+                                    <Outlet />
+                            </Suspense>
+                        </div>
                         <Suspense fallback={<div>Loading</div>}>
                             <Siderbar></Siderbar>
                         </Suspense>
