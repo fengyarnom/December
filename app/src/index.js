@@ -94,10 +94,9 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
-      
-        <RouterProvider router={router} />
-      
-      
+      <Suspense fallback={<LinearProgress />}>                              
+          <RouterProvider router={router} />
+      </Suspense>
     </React.StrictMode>
 );
 
