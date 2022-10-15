@@ -26,7 +26,7 @@ export default class HomeView extends Component{
                                     <Outlet />
                             </Suspense>
                         </div>
-                        <Suspense fallback={<div>Loading</div>}>
+                        <Suspense fallback={<div></div>}>
                             <Siderbar></Siderbar>
                         </Suspense>
                         
