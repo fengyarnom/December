@@ -81,7 +81,7 @@ export default class NewPost extends Component{
         axios.post('/api/newPost',{
             data:{
               pid:this.state.pid,
-              title:this.state.title?this.state.title==="":"无题",
+              title:this.state.title?"":"无题",
               content:this.state.content,
               tags:this.state.tags,
               isTop:this.state.isTop,
